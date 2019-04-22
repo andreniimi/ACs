@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<style>
+		.quadro{
+			width: 300px;
+			height: 130px;
+			background-color: rgb(108, 158, 247)
+			text-align: center;
+			padding-top: 13px;
+  			padding-right: 10px;
+  			padding-bottom: 10px;
+  			padding-left: 10px;
+			border: 1px solid black;
+  			border-radius: 25px;
+			
+		}
+		body{
+			text-align: center;
+			padding-top: 100px;
+  			
+			
+		}
+	</style>
+		<meta charset=”UTF-8” />
+		<link rel=”favicon” charset=”favicon.ico” />
+		<title>Login</title>
+	</head>
+	<body bgcolor="#E0FFFF"><center>
+		<br><br><br>
+		<form>
+  			<div class="quadro" name="quadro">
+			<p>
+    			<label for="user"><b>Usuário</b></label>
+    			<input type="text" placeholder="Digite. . ." name="user" required>
+			<br><br>
+    			<label for="psw"><b>Senha:  </b></label>
+    			<input type="password" placeholder="Digite a senha. . ." name="psw" required>
+			<br><br>
+    			<input type="button" value="Voltar" onclick="history.back()">  
+			<button type="submit">Entrar...</button>
+			   
+			<input type="button" value="Cadastre-se" onclick="location.href='cadastro.html';">
+			
+			<p>
+			</div>
+    		</form>
+
+	</body>
+</html>
